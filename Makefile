@@ -6,7 +6,7 @@
 #    By: majosue <majosue@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/11/13 10:14:46 by majosue           #+#    #+#              #
-#    Updated: 2020/03/13 15:20:08 by majosue          ###   ########.fr        #
+#    Updated: 2020/03/13 16:53:53 by majosue          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ INCLUDES = -I libft/ -I minilibx_macos/
 MINILIBX = minilibx_macos/libmlx.a
 LIBFT = libft/libft.a
 COMPILERC = gcc
-FLAGS = -g  -O0 -O1 -O2 -O3 -Wall -Wextra -Werror 
+FLAGS = -Wall -Wextra -Werror 
 SOURCES  =  fractol.c  ft_events.c ft_opencl_init.c ft_init.c ft_actions.c
 OBJECTS = $(SOURCES:.c=.o)
 
