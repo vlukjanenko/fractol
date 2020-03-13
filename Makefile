@@ -6,18 +6,18 @@
 #    By: majosue <majosue@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/11/13 10:14:46 by majosue           #+#    #+#              #
-#    Updated: 2020/03/06 20:41:52 by majosue          ###   ########.fr        #
+#    Updated: 2020/03/13 15:20:08 by majosue          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME =  fractol
-HEADER = fractol.h
+HEADER = fractol.h fractol_opencl.h
 INCLUDES = -I libft/ -I minilibx_macos/
 MINILIBX = minilibx_macos/libmlx.a
 LIBFT = libft/libft.a
 COMPILERC = gcc
-FLAGS = -g  -O0 -O1 -O2 -O3 #-Wall -Wextra -Werror 
-SOURCES  =  fractol.c ft_get_color.c
+FLAGS = -g  -O0 -O1 -O2 -O3 -Wall -Wextra -Werror 
+SOURCES  =  fractol.c  ft_events.c ft_opencl_init.c ft_init.c ft_actions.c
 OBJECTS = $(SOURCES:.c=.o)
 
 all: $(NAME)
