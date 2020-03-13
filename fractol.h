@@ -6,7 +6,7 @@
 /*   By: majosue <majosue@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/18 12:21:44 by majosue           #+#    #+#             */
-/*   Updated: 2020/03/13 16:02:56 by majosue          ###   ########.fr       */
+/*   Updated: 2020/03/13 16:48:16 by majosue          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@
 # include "fractol_opencl.h"
 # define WIN_WIDTH 1200
 # define WIN_HEIGHT 800
-# define MAX_ITERATIONS 150
 # define START_COLOUR 0x0
 # define END_COLOUR 0xff0000
 

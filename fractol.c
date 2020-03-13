@@ -6,7 +6,7 @@
 /*   By: majosue <majosue@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/18 12:20:29 by majosue           #+#    #+#             */
-/*   Updated: 2020/03/13 15:56:29 by majosue          ###   ########.fr       */
+/*   Updated: 2020/03/13 16:49:41 by majosue          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,8 +48,8 @@ int	main(int argc, char **argv)
 
 	if (argc != 2 || (mlx.start_fractol = ft_check_arg(argv[1])) > 7)
 	{
-		ft_putendl("usage: ./fractol mandelbrot | julia | \
-		newton | ship | halley | h1 | h2 | h3");
+		ft_putstr("usage: ./fractol mandelbrot | julia |");
+		ft_putendl(" newton | ship | halley | h1 | h2 | h3");
 		return (0);
 	}
 	mlx.selected_fractol = mlx.start_fractol;

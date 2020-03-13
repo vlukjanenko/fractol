@@ -6,13 +6,14 @@
 /*   By: majosue <majosue@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/11 10:57:19 by majosue           #+#    #+#             */
-/*   Updated: 2020/03/13 16:05:10 by majosue          ###   ########.fr       */
+/*   Updated: 2020/03/13 16:49:02 by majosue          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FRACTOL_OPENCL_H
 # define FRACTOL_OPENCL_H
 # define MAX_SOURCE_SIZE 0x100000
+# define MAX_ITERATIONS 150
 
 typedef union	u_colour
 {
